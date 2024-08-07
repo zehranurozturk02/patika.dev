@@ -8,6 +8,12 @@
 
 select * from film where uzunluk<50 and kira_bedeli!=2.99 or kira_bedeli!=4.99
 
+--                 ÖDEV 2
+
+-- select * from film where kira_bedeli between 12.99 and 16.99
+
+ -- select * from film where kira_bedeli in(0.99,2.99,4.99) and degistirme_ucreti in(12.99,15.99,28.99)
+
 
 
 
