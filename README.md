@@ -27,6 +27,14 @@ select * from film where uzunluk<50 and kira_bedeli!=2.99 or kira_bedeli!=4.99
 
  select * from film  count where (baslık like 'T%' and değerlendirme ='G') 
 
+--                ÖDEV 5
+
+--select top 5 * from film where baslık like'%n' order by uzunluk desc 
+
+--2?
+
+
+
 
 
 
