@@ -43,6 +43,12 @@ select max(uzunluk)from film where kira_bedeli =0.99
 
 select count(distinct (degistirme_ucreti)) from film where uzunluk>150
 
+--				ÖDEV 7 ??????????
+
+--SELECT baslık FROM film GROUP BY değerlendirme;
+
+--SELECT degistirme_ucreti, COUNT(*) AS film_sayısı FROM film GROUP BY degistirme_ucreti
+--HAVING COUNT(*) > 50 ORDER BY film_sayısı DESC;
 
 
 
