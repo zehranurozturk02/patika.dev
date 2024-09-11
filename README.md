@@ -51,6 +51,30 @@ select count(distinct (degistirme_ucreti)) from film where uzunluk>150
 --HAVING COUNT(*) > 50 ORDER BY film_sayısı DESC;
 
 
+--ÖDEV 8
+--select *from employe
+
+--update employe set id='51' where id='1';
+--update employe set id='52' where id='2';
+
+--update employe set name='ibrahimGüncel' where name='Ibrahim';
+--update employe set id='28' where name='Marlo';
+
+--update employe set date='2024-01-01' where id='3';
+
+--UPDATE İŞLEMİ YAPTIM 5 TANE VERİYE
+
+--delete from employe where id='4';
+--delete from employe where date='2024-07-07';
+--delete from employe where email='mkerwen4@gmpg.org';
+--delete from employe where name ='Karin';
+--delete from employe where id='6';
+
+--SİLME İŞLEMİ YAPTIM 5 TANE VERİYE
+
+select *from employe
+
+
 
 
 
