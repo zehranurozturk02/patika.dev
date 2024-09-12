@@ -86,6 +86,16 @@ select *from employe
 --select customers.first_name,customers.last_name,rental.rental_idd from customers
 --inner join rental on customers.musteri_id=rental.rental_idd
 
+-- ÖDEV 10
+
+--select city.name,country.name from city 
+--left join country on city.city_id=country.country_id
+
+--select payment.payment_id,customers.first_name,customers.last_name from customers
+--right join payment on payment_id=customers.musteri_id
+
+--select customers.first_name,customers.last_name,rental.rental_idd from customers
+--full join rental on rental_idd=customers.musteri_id
 
 
 
