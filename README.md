@@ -52,6 +52,7 @@ select count(distinct (degistirme_ucreti)) from film where uzunluk>150
 
 
 --ÖDEV 8
+
 --select *from employe
 
 --update employe set id='51' where id='1';
@@ -74,8 +75,16 @@ select count(distinct (degistirme_ucreti)) from film where uzunluk>150
 
 select *from employe
 
+-- ÖDEV 9
 
+--select city.name,country.name from city
+--inner join country on city_id = country_id;
 
+--select customers.first_name,customers.last_name,payment.payment_id from customers
+--inner join payment on customers.musteri_id=payment.payment_id 
+
+--select customers.first_name,customers.last_name,rental.rental_idd from customers
+--inner join rental on customers.musteri_id=rental.rental_idd
 
 
 
