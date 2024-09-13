@@ -107,6 +107,15 @@ select *from employe
 --SELECT first_name FROM customers
 --ORDER BY first_name
 
+--ÖDEV 12
+
+--select count(*) from film where uzunluk> (select avg(uzunluk) from film)
+--select count(*)  from film where degistirme_ucreti = (select max(degistirme_ucreti)from film)
+
+--select baslık from film where kira_bedeli = (select MIN(kira_bedeli) from film)  AND
+--degistirme_ucreti= (select MIN(degistirme_ucreti)from film) order by baslık
+
+--select customer from payment where alışveriş_saysı= (select max(alışveriş_saysı) from payment) order by customer
 
 
 
