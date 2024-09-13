@@ -97,6 +97,16 @@ select *from employe
 --select customers.first_name,customers.last_name,rental.rental_idd from customers
 --full join rental on rental_idd=customers.musteri_id
 
+--   ÖDEV 11
+
+--SELECT first_name FROM actor UNION 
+--SELECT first_name FROM customers
+--ORDER BY first_name
+
+--SELECT first_name FROM actor except 
+--SELECT first_name FROM customers
+--ORDER BY first_name
+
 
 
 
